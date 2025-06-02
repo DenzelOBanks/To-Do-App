@@ -12,8 +12,8 @@
     <img src="{{ url_for('static', filename ='images/Note.png') }}" alt="NotePng"></h1>
 
     <form action="/add" method="post">
-        <label for="item">To-do</label>
-        <input type="text" placeholder="Enter To-do" name="item" >
+        <label>To-do</label>
+        <input type="text" placeholder="Enter To-do" name="title" >
         <button type="submit"> Add </button>
     </form>
 
@@ -21,13 +21,14 @@
 
         <p> To-do:</p>
         {% for todo in todo_list %}
-            <p>{{todo.id}} | {{todo.title}} </p>
+            <p>{{ todo.id }} | {{ todo.title }} </p>
 
             {% if todo.complete == False %}
                 <span> Not Complete </span>
             {% else %}
                  <span> Complete </span>
             {% endif %}
+
         {% endfor %}
         
     </div>

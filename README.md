@@ -16,7 +16,7 @@ A simple and intuitive To-Do list application built to help you organize tasks e
 ## 🛠️ Tech Stack
 
 * **Frontend:** HTML, CSS, JavaScript
-* **Backend:** Python, Flask
+* **Backend:** Python, Flask, Bootstrap
 * **Database:** SQLALCHEMY
 
 

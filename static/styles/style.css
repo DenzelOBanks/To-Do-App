@@ -1,14 +1,34 @@
-body{
-    padding: 20px;
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
+body {
+    display: block;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
 
-.list-container{
- background-color: #ffffff;
+.Header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.list-container {
+    background-color: #ffffff;
     border: 2px solid #000000;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
-    width: 300px;
-    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
